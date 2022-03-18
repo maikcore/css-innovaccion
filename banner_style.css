@@ -1,0 +1,53 @@
+
+/* ITEMS GENERALES */
+body{
+    max-width: 1750px;
+    margin: auto;
+    
+}
+
+/* ----- Preparations ---- */
+.preparations{
+    background: url(images/bg6.png) ; text-align: left; 
+    height: 1000px;
+    
+}
+
+.preparations .contain {
+    padding-top: 80px;
+    padding-right: 800px;
+    float:right;
+    max-width: 700px;
+    margin: 0 auto;
+} 
+.preparations .contain .titulo{
+    color:#1f3e72; font:50px 'Arial';font-weight:bolder;
+    margin-BOTTOM:35px;
+}
+.preparations .contain p {
+    max-width: 663px;
+    margin-TOP: 0;
+    margin-BOTTOM:100px;
+    color:#6d7b93; font:25px/1.8 'Arial'; 
+ 
+}
+
+.preparations .contain .texto{
+
+    float: left;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+.preparations .contain a{
+
+    color: #f1f5ff;padding: 20px 40px;text-decoration: none;font-weight: bolder;
+    background-color: #3959d7 ;
+    border-radius: 10px;
+    animation: blinker 1s linear infinite;
+  
+  }
+  @keyframes blinker {
+    80% {
+      opacity: 0;
+    }
+  }
